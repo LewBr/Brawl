@@ -1,0 +1,17 @@
+main: lewbr\planpvp\PlanPvP
+api: 1.13.0
+load: STARTUP
+name: PlanPvP
+description: "planpvp plugin"
+version: 1.1 [INDEV]
+author: lewbr
+
+commands:
+  planpvp:
+    description: "Entre ou saia do minigame"
+    permission: planpvp.cmd
+
+permissions:
+  planpvp.cmd:
+    default: true
+    description: "Todos usarem o comando do minigame"
