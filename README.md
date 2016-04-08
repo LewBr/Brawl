@@ -1,4 +1,4 @@
-# PlanPvP by lewbr Dono Fireland,BubbleSky,MineThex
+# PlanPvP by Lewbr Owner Fireland,BubbleSky,MineThex,SkyPixel
 
 - Primeiro não deixe de deixar uma estrela para este plugin 
 - Aqui vou ensinar a vocês a como configurar o plugin.
@@ -7,8 +7,25 @@
 - Bom, vamos começar com a configuração do plugin que é oque interessa.
 
 #Primeiramente 
-- abra o plugin pelo config.yml e 
-- edite o nome do mundo e as coordenadas que deseja iniciar o jogo e o ponto de lobby,
-- Irã estar tudo escrito para que vocês saibam.
+- abra o plugin pelo config.yml 
+- edite o nome do mundo e as coordenadas que deseja iniciar o jogo e o ponto de lobby
+- Ira estar tudo escrito para que vocês saibam.
 - Depois disso e só colocar no servidor, editar o plugin da sua maneira, para entrar no jogo 
 - /planpvp [entrar/sair]
+
+English by translate
+
+# PlanPvP by Lewbr Owner Fireland, BubbleSky, MineThex, Skypixel
+
+- First be sure to leave a star for this plugin
+- Here I will teach you how to configure the plugin.
+- First this is my first plugin created and posted on github, but I have several private, I'm new on github
+- More have enough experience by Minecraft game and plug-in PHP
+- Well, let's start with the configuration of the plugin that is WHAT interests.
+
+#First
+- Open the plug by config.yml
+- Edit the name of the world and the coordinates you want to start the game and the lobby point
+- Ira be all written for you to know.
+- After that and just put on the server, edit the plugin of your way to get into the game
+- /planpvp [entrar / sair]
