@@ -1,4 +1,6 @@
-# PlanPvP by Lewbr Owner Fireland,BubbleSky,MineThex,SkyPixel
+#Português
+
+# PlanPvP/Brawl by Lewbr Owner Fireland,BubbleSky,MineThex,SkyPixel
 
 - Primeiro não deixe de deixar uma estrela para este plugin 
 - Aqui vou ensinar a vocês a como configurar o plugin.
@@ -13,9 +15,9 @@
 - Depois disso e só colocar no servidor, editar o plugin da sua maneira, para entrar no jogo 
 - /planpvp [entrar/sair]
 
-English by translate
+# English
 
-# PlanPvP by Lewbr Owner Fireland, BubbleSky, MineThex, Skypixel
+# PlanPvP/Brawl by Lewbr Owner Fireland, BubbleSky, MineThex, Skypixel
 
 - First be sure to leave a star for this plugin
 - Here I will teach you how to configure the plugin.
