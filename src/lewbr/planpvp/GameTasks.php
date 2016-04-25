@@ -1,5 +1,5 @@
 <?php
-namespace xbeastmode\brawlpvp;
+namespace lewbr\brawlpvp;
 use pocketmine\level\Position;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\TextFormat;
