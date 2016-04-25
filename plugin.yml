@@ -1,5 +1,7 @@
 main: lewbr\planpvp\PlanPvP
-api: 1.13.0
+api:
+- 1.13.0
+- 2.0.0
 load: STARTUP
 name: PlanPvP
 description: "planpvp plugin"
