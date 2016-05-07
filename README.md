@@ -1,6 +1,6 @@
 #Português
 
-# PlanPvP/Brawl by Lewbr Owner Fireland,BubbleSky,MineThex,SkyPixel
+# PlanPvP/Brawl by Lewbr Owner PocketGames,MineThex, Mod ObliviousPE
 
 - Primeiro não deixe de deixar uma estrela para este plugin 
 - Aqui vou ensinar a vocês a como configurar o plugin.
@@ -17,7 +17,7 @@
 
 # English
 
-# PlanPvP/Brawl by Lewbr Owner Fireland, BubbleSky, MineThex, Skypixel
+# PlanPvP/Brawl by Lewbr Owner PocketGames,MineThex, Mod ObliviousPE
 
 - First be sure to leave a star for this plugin
 - Here I will teach you how to configure the plugin.
