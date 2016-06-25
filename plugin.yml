@@ -1,12 +1,9 @@
-main: lewbr\planpvp\PlanPvP
-api:
-- 1.13.0
-- 2.0.0
+main: LewBr\PlanPvP\PlanPvP
+api: 2.0.0
 load: STARTUP
 name: PlanPvP
-description: "planpvp plugin"
-version: 1.1 [INDEV]
-author: lewbr
+version: 1.5 [INDEV]
+author: @Lew_Br
 
 commands:
   planpvp:
@@ -16,4 +13,4 @@ commands:
 permissions:
   planpvp.cmd:
     default: true
-    description: "Todos usarem o comando do minigame"
+    description: "Todos usarem o comando do jogo"
