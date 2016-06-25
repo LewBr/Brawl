@@ -1,8 +1,8 @@
-main: LewBr\PlanPvP\PlanPvP
+main: lewbr\planpvp\PlanPvP
 api: 2.0.0
 load: STARTUP
 name: PlanPvP
-version: 1.5 [INDEV]
+version: 1.0 [INDEV]
 author: @Lew_Br
 
 commands:
