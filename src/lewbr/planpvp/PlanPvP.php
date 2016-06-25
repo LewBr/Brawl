@@ -98,7 +98,6 @@ class PlanPvP extends PluginBase implements Listener{
                                 $runner->teleport(new Position($this->wx,$this->wy,$this->wz,$this->wlvl),0,0);
                                 foreach($this->brawl as $pl){
                                     $pl->sendMessage(TextFormat::GOLD."[PlanPvP] ".$runner->getName()." juntou-se ao jogo.");
-									$this->giveItems($pl);
                                 }
                                 if(count($this->brawl) >= $this->min){
                                     $t = new WaitTask($this);
@@ -132,17 +131,6 @@ class PlanPvP extends PluginBase implements Listener{
                                     unset($this->brawl);
                                     unset($this->cnt);
                                 }
-    public function giveItems(Player $player) { 
-		$inv = $player->getInventory();
-		$inv->setContents([]);
-		$inv->setArmorItem(0, Item::get(Item::IRON_HELMET));
-		$inv->setArmorItem(1, Item::get(Item::DIAMOND_CHESTPLATE));
-		$inv->setArmorItem(2, Item::get(Item::IRON_LEGGINGS));
-		$inv->setArmorItem(3, Item::get(Item::DIAMOND_BOOTS));
-		$inv->sendArmorContents($player);
-		$inv->addItem(Item::get(Item::STEAK, 0, 15));
-		$inv->addItem(Item::get(Item::DIAMOND_AXE, 0, 1));
-		$inv->sendContents($player); 
                             }
                         break;
                     }
@@ -162,24 +150,6 @@ class PlanPvP extends PluginBase implements Listener{
                 unset($this->cnt);
             }
 			
-			
-	public function win(){
- 			foreach($this->players as $key=>$val)
-			{
-					$p=$this->getServer()->getPlayer($val["id"]);
- 		if(isset($this->players[$p->getName()]))
-		{	 
-		if(count($this->brawl) <= 1){
- 	 Server::getInstance()->broadcastMessage("[PlanPvP]".$runner->getName()." Ganhou o jogo!");
- 	 $p->sendmessage("=-= Review do jogo =-=");
- 	 $p->sendmessage("§6+".$this->getConfig()->get("money_amount")." Para o vencedor!");
- 	 $p->sendTip("§e§lVoce ganhou o jogo!!");
-     $this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->addMoney($p->getName(), $this->getConfig()->get("money_amount"));
- 	 $this->players=array();
- 	 				unset($this->brawl);
-                    unset($this->cnt);
-					$p->teleport($this->signlevel->getSpawnLocation());
-					$p->getInventory()->clearAll();
         }
     }
     public function onKill(PlayerDeathEvent $e){
