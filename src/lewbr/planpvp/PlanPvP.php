@@ -10,7 +10,6 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 use lewbr\hg\tasks\WaitingTask;
-
 class PlanPvP extends PluginBase implements Listener{
     public $brawl = [];
     public $cnt = [];
@@ -61,7 +60,6 @@ class PlanPvP extends PluginBase implements Listener{
         $this->game_time = $this->getConfig()->get("game_time");
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
     }
-
     public function pay($p,$amt,$api){
         $pl = $this->getServer()->getPluginManager();
         switch(strtolower($api)){
@@ -105,7 +103,7 @@ class PlanPvP extends PluginBase implements Listener{
                                     $t->setHandler($h);
                                     foreach($this->brawl as $pl) {
                                         $min = $this->wait_time/60;
-                                        $pl->sendMessage(TextFormat::GOLD."[PlanPvP] Jogo iniciando ".($this->wait_time <= 60 ? "{$this->wait_time} seconds" : "{$min} minutes."));
+                                        $pl->sendMessage(TextFormat::GOLD."[PlanPvP] Jogo inciando ".($this->wait_time <= 60 ? "{$this->wait_time} seconds" : "{$min} minutes."));
                                         break;
                                     }
                                 }
@@ -144,12 +142,11 @@ class PlanPvP extends PluginBase implements Listener{
             unset($this->brawl[$p->getName()]);
             unset($this->cnt[$p->getName()]);
             if(count($this->brawl) <= 0){
-                $this->getServer()->broadcastMessage(TextFormat::GREEN."[PlanPvP] Jogo foi aberto!");
+                $this->getServer()->broadcastMessage(TextFormat::GREEN."[PlanPvP] Jogo foi aberto.");
                 $this->running = false;
                 unset($this->brawl);
                 unset($this->cnt);
             }
-			
         }
     }
     public function onKill(PlayerDeathEvent $e){
@@ -165,9 +162,5 @@ class PlanPvP extends PluginBase implements Listener{
                 }
             }
         }
-		public function onDisable(){
-		    $this->config->save();
-			$this->getServer()->getLogger()->notice(TextFormat::GREEN."Salvando tudo...");
-			$this->getServer()->getLogger()->notice(TextFormat::RED."Desativando..");
     }
 }
