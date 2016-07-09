@@ -1,0 +1,49 @@
+---
+#BrawlPvP Config by LewBr
+#money api lista --
+#EconomyAPI, PocketMoney, MassiveEconomy
+#default EconomyAPI by onebone
+money_api: EconomyAPI
+#quantidade de saldo dado ao fim do jogo
+#apenas o vencedor ganha o saldo
+money_amount: 35
+#minimo de jogadores necessario no jogo
+#minimo de 4 e recomendado
+min_players: 4
+#max of players recommended 16
+max_players: 12
+#change the coordinate of the waiting room of the game
+#x pos
+wait_x: 222.4
+#y pos
+wait_y: 106
+#z pos
+wait_z: 348.6
+#name in the world of the waiting room
+wait_level: world
+#position where players start the game
+#x pos
+game_x: 222.5
+#y pos
+game_y: 85
+#z pos
+game_z: 348.6
+#world to start the game
+game_level: world
+#position spawn or lobby where the game ends
+#x pos
+lobby_x: 119.9
+#y pos
+lobby_y: 0
+#z pos
+lobby_z: 118.9
+#name lobby world or spawn
+lobby_level: world
+#Time setting
+#time in seconds
+#time of the game to start
+#60 seconds = 1 minute, 300 seconds = 5 minute
+wait_time: 300
+#time to start killing (invisibility)
+game_time: 60
+...
